@@ -257,7 +257,7 @@ export const baseStyles = injectGlobal`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #001934;
+    background-color: #282c34;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -271,7 +271,7 @@ export const baseStyles = injectGlobal`
     z-index: 1;
     padding: 15px;
     position: relative;
-    height: 80px;
+    height: 50px;
   }
   .navBarHeader {
     min-width: 335px;

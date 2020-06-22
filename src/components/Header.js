@@ -147,7 +147,6 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                     </a>
                   </li>
                 ) : null}
-
                 {tweetText !== '' ? (
                   <li>
                     <a
@@ -181,12 +180,6 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                     </GitHubButton>
                   </li>
                 ) : null}
-                <li>
-                  <DarkModeSwitch
-                    isDarkThemeActive={isDarkThemeActive}
-                    toggleActiveTheme={toggleActiveTheme}
-                  />
-                </li>
               </ul>
             </div>
           </nav>
